@@ -8,18 +8,18 @@
 
 import UIKit
 
+/// 用于swift基础知识的练习  大家可以一起交流
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+
+        
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
+    
+    
 }
 

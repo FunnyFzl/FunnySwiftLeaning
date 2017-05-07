@@ -14,6 +14,7 @@
 		B46F162A1EA070EB00D330C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46F16281EA070EB00D330C4 /* LaunchScreen.storyboard */; };
 		B46F16351EA070EB00D330C4 /* FunnySwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46F16341EA070EB00D330C4 /* FunnySwiftTests.swift */; };
 		B46F16401EA070EB00D330C4 /* FunnySwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46F163F1EA070EB00D330C4 /* FunnySwiftUITests.swift */; };
+		B46F164E1EA07B3200D330C4 /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46F164D1EA07B3200D330C4 /* OneViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B46F163B1EA070EB00D330C4 /* FunnySwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunnySwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B46F163F1EA070EB00D330C4 /* FunnySwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunnySwiftUITests.swift; sourceTree = "<group>"; };
 		B46F16411EA070EB00D330C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B46F164D1EA07B3200D330C4 /* OneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				B46F161F1EA070EB00D330C4 /* AppDelegate.swift */,
 				B46F16211EA070EB00D330C4 /* ViewController.swift */,
+				B46F164D1EA07B3200D330C4 /* OneViewController.swift */,
 				B46F16231EA070EB00D330C4 /* Main.storyboard */,
 				B46F16261EA070EB00D330C4 /* Assets.xcassets */,
 				B46F16281EA070EB00D330C4 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B46F164E1EA07B3200D330C4 /* OneViewController.swift in Sources */,
 				B46F16221EA070EB00D330C4 /* ViewController.swift in Sources */,
 				B46F16201EA070EB00D330C4 /* AppDelegate.swift in Sources */,
 			);
@@ -516,6 +520,7 @@
 				B46F16461EA070EB00D330C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B46F16471EA070EB00D330C4 /* Build configuration list for PBXNativeTarget "FunnySwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +529,7 @@
 				B46F16491EA070EB00D330C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B46F164A1EA070EB00D330C4 /* Build configuration list for PBXNativeTarget "FunnySwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +538,7 @@
 				B46F164C1EA070EB00D330C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
